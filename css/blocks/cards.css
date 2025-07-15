@@ -1,0 +1,101 @@
+
+.cards-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.card {
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc((100% - 32px) / 2);
+    padding: 32px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: right 32px top 32px;
+}
+
+.card--first {
+    background-image: url("../../images/image-banner-bg.png");
+    background-color: #E7EFFF;
+}
+
+.card--second {
+    background-image: url("../../images/image-debet.png");
+    background-color: #476BF0;
+    color: #FFFFFF;
+}
+
+.card--third {
+    background-image: url("../../images/image-ipoteka.png");
+    background-color: #CFF6E7;
+}
+
+.card--forth {
+    background-image: url("../../images/image-privilege.png");
+    background-color: #C4E7FF;
+}
+
+
+
+
+.card__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 12px;
+}
+
+
+
+.card__description {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__label {
+    width: 66px;
+    height: 24px;
+    border: 1px solid #1E222E80;
+    border-radius: 4px;
+    color: rgba(30, 34, 46, 0.5);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    margin: 0 0 12px 0;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card__low-bid {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 12px;
+}
+
+.card__link {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: #476BF0;
+    border-radius: 8px;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+}
+
+.card__link-second {
+    color: #476BF0;
+    background-color: #FFFFFF;
+}
