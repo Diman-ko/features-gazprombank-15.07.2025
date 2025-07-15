@@ -21,33 +21,35 @@
     background-position: right 32px top 32px;
 }
 
-.cards-list__card--first {
+.cards-list__card--credit {
     background-image: url("../../images/image-banner-bg.png");
     background-color: #E7EFFF;
 }
 
-.cards-list__card--second {
+.cards-list__card--debit {
     background-image: url("../../images/image-debet.png");
     background-color: #476BF0;
     color: #FFFFFF;
 }
 
-.cards-list__card--third {
-    background-image: url("../../images/image-ipoteka.png");
-    background-color: #CFF6E7;
-}
-
-.cards-list__card--second .cards-list__card-label {
+.cards-list__card--debit .cards-list__card-label {
     color: #FFFFFF;
     border: 1px solid #FFFFFF80;
 }
 
-.cards-list__card--fourth {
+.cards-list__card--mortgage {
+    background-image: url("../../images/image-ipoteka.png");
+    background-color: #CFF6E7;
+}
+
+
+.cards-list__card--privilege {
     background-image: url("../../images/image-privilege.png");
     background-color: #C4E7FF;
 }
 
 .cards-list__card-title {
+    display: flex;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
@@ -96,11 +98,9 @@
     background-color: #476BF0;
     border-radius: 8px;
     text-align: center;
-    /*width: 140px;*/
-    /*height: 40px;*/
 }
 
-.cards-list__card-link--second {
+.cards-list__card-link--debit {
     color: #476BF0;
     background-color: #FFFFFF;
 }
