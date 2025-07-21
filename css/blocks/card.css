@@ -36,7 +36,7 @@
     background-color: #C4E7FF;
 }
 
-.card-title {
+.card__title {
     display: flex;
     font-weight: 700;
     font-size: 24px;
@@ -45,14 +45,14 @@
 }
 
 
-.card-description {
+.card__description {
     width: 260px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.card-label {
+.card__label {
     width: 66px;
     height: 24px;
     color: #1E222E80;
@@ -68,14 +68,14 @@
     text-transform: uppercase;
 }
 
-.card-low-bid {
+.card__low-bid {
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     margin: 0 0 12px;
 }
 
-.card-link {
+.card__link {
     align-self: flex-start;
     display: inline-block;
     padding: 10px 30px;
@@ -88,7 +88,7 @@
     text-align: center;
 }
 
-.card-link--debit {
+.card__link--debit {
     color: #476BF0;
     background-color: #FFFFFF;
 }
@@ -101,11 +101,11 @@
     background-size: 210px 135px;
 }
 
-.cards-list--alt .card-description {
+.cards-list--alt .card__description {
     align-self: center;
 }
 
-.cards-list--alt .card-label {
+.cards-list--alt .card__label {
     font-size: 10px;
     font-weight: 500;
     line-height: 14px;
@@ -113,7 +113,7 @@
     align-self: center;
 }
 
-.cards-list--alt .card-title {
+.cards-list--alt .card__title {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -122,7 +122,7 @@
 }
 
 
-.cards-list--alt .card-low-bid {
+.cards-list--alt .card__low-bid {
     text-align: center;
     font-weight: 400;
     font-size: 14px;
@@ -130,6 +130,6 @@
 
 }
 
-.cards-list--alt .card-link {
+.cards-list--alt .card__link {
     align-self: center;
 }
